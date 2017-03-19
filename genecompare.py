@@ -30,7 +30,7 @@ wbname=args.output+'.xlsx'
 ws2 = wb.create_sheet("LogFC-Sorted(cells only)")
 ws3 = wb.create_sheet("FC-Sorted(cells only)")
 ws4 = wb.create_sheet("FC-Sorted(fc var)")
-ws5 = wb.create_sheet("Hi-Lo)")
+ws5 = wb.create_sheet("Hi-Lo")
 
 
 #Set the user specific files to file name variables
