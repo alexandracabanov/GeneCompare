@@ -13,7 +13,7 @@ from headerizer import headerize
 #headerizer is a function to set formatting of workbook headers - it save a couple lines of code 
 
 #Deal with command line args
-parser = argparse.ArgumentParser(description='message files must be tab delimited "MTA-1.0 output". Everything explodes if not')
+parser = argparse.ArgumentParser(description='For this program to work you are supposed to compare two genearray files. Specifically, one file that is analysis of a whole tumor (including non-tumor cells) and one file that is analysis of tumor cells only. Data files must be tab delimited "MTA-1.0" style genearray files. Everything explodes if not')
 parser.add_argument('-w','--wholetumor', help='Specify Whole Tumor File',required=True)
 parser.add_argument('-c','--cellsonly',help='Specify Tumor Cells Only File', required=True)
 parser.add_argument('-o','--output',help='Specifcy the output file name. ".xlsx" will be appended to all names given', required=True)
